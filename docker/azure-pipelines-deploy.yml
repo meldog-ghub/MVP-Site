@@ -18,9 +18,9 @@ variables:
   # This is set because artifacts in the k8s directory were modified, to allow a deploy only pipeline,
   # and this is the variable that was substituted for the image tag, everywhere. The other variables reference
   # a prior build pipeline run to deploy, by project, pipeline, and build number.
-  targetBuildNumber: "20210810.2"
-  targetBuildPipeline: "redapt.MVP-Site"
-  targetBuildPipelineProject: "kingcounty-mvp"
+  #targetBuildNumber: "20210810.2"
+  targetBuildPipeline: "meldog-ghub.MVP-Site"
+  targetBuildPipelineProject: "Enterprise-Kubernetes-Platform"
 
   SITECORE_DATABASE_SERVER_NAME: mssql
   SITECORE_SOLR_CONNECTION_STRING: http://solr:8983/solr
