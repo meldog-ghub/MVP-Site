@@ -35,13 +35,13 @@ variables:
   SITECORE_IDENTITY_SECRET: D3faultch4ngem3!
   SITECORE_MVP_IDENTITY_SECRET: D3faultch4ngem3!
   SITECORE_TELERIK_ENCRYPTION_KEY: D3faultch4ngem3!
-  STAGING_CD_HOST: cd.redapt.com
-  STAGING_CM_HOST: cm.redapt.com
-  STAGING_ID_HOST: id.redapt.com
-  STAGING_HOST: site.redapt.com
+  STAGING_CD_HOST: mvp-cd.kingcounty.gov
+  STAGING_CM_HOST: mvp-cm.kingcounty.gov
+  STAGING_ID_HOST: mvp-id.kingcounty.gov
+  STAGING_HOST: mvp-site.kingcounty.gov
   SITECORE_PUBLIC_NUGET_FEED: https://sitecore.myget.org/F/sc-packages/api/v3/index.json
-  ID_SERVER_URL: http://id.redapt.com
-  CM_URL: http://cm.redapt.com
+  ID_SERVER_URL: http://mvp-id.kingcounty.gov
+  CM_URL: http://mvp-cm.kingcounty.gov
   BUILD_CONFIGURATION: release
   IP_WHITELIST: "0.0.0.0/0"
   # DOCKER_COMPOSE_ARGS: ""
